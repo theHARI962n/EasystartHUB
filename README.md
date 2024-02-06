@@ -14,9 +14,15 @@ Automated Processes: Save time and ensure compliance with automated processes.
 
 Engagement & Communication: Enhance communication and engagement with personalized features.
 
-Explore the Features:
+## Explore the Features:
 Navigate through the app using the provided links in the header.
+
 Test out the signup, login, and form submission functionalities.
+
+progress section,formsubmission,token raising.
+
+chatbot for helping you with the app.
+
 ## File Structure
 The repository is structured as follows:
 

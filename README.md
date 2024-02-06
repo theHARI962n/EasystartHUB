@@ -3,6 +3,8 @@ Onboarding web for codefest Hackathon
 
 ## Onboarding App
 
+still need to complete some features.
+
 Welcome to the Onboarding App GitHub repository! This repository contains the source code for an innovative web application designed to streamline the employee onboarding process. Below you'll find information on how to set up and use the application.
 
 ## About the Onboarding App

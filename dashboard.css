@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 15px 8px 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidenav a {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}

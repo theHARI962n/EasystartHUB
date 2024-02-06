@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="seatall.css">
+    <title>Seat Allocation</title>
+</head>
+<body>
+    <div class="allocation-container">
+        <h1>Seat Allocation</h1>
+        <form id="seatAllocationForm">
+            <label for="employeeName">Employee Name:</label>
+            <input type="text" id="employeeName" name="employeeName" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="seatSelection">Seat Selection:</label>
+            <select id="seatSelection" name="seatSelection" required>
+                <option value="A1">A1</option>
+                <option value="A2">A2</option>
+                <!-- Add more options based on your seating arrangement -->
+            </select>
+
+            <button type="button" onclick="allocateSeat()">Allocate Seat</button>
+        </form>
+    </div>
+
+    <script src="seatall.js"></script>
+</body>
+</html>

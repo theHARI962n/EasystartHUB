@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('assets/WhatsApp\ Image\ 2024-02-01\ at\ 2.29.13\ PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #42b3f4;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #AAD7D9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* style.css */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.feature h2 {
+    color: #42b3f4;
+}
+
+.feature p {
+    color: #666;
+}
+
+/* Update your HTML structure for the "About" section if needed */
+
+/* style.css */
+.how-it-works {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.step {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.step img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Update your HTML structure for the "How It Works" section if needed */
+
+
+.contact {
+    background-color: #c2bdbd;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.progress {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#progressChart {
+    max-width: 100%;
+    margin: 20px 0;
+}
+.contact-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: beige;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #a363aa;
+    font: size 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-input:focus{
+    border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder{
+    
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+}
+.contact-right img{
+    width: 500px;
+}

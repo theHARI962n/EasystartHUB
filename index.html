@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth-styles.css">
+    <title>Onboarding App</title>
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">EasyStartHub</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contract-acceptance.html">Offers</a></li> 
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="seatall.html">seatallc</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Streamline Your Onboarding Process</h1>
+            <p>Delight candidates, streamline HR operations, and save time with our innovative Onboarding App.</p>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature">
+            <h2>About</h2>
+            <h2>Efficient Onboarding</h2>
+            <p>Welcome to EasyStartHub, where seamless integration meets innovative onboarding experiences! 
+                Our platform is designed to revolutionize the way companies onboard their employees,
+                 ensuring a smooth and efficient transition into the workplace.</p>
+        </div>
+        <div class="feature">
+            <h2>Automated Processes</h2>
+            <p>Save time and enhance compliance with our automated processes.
+             From document submissions to communication preferences, we've automated it all.</p>
+        </div>
+        <div class="feature">
+            <h2>Our Mission:</h2>
+            <p> At Onboarding App, our mission is to redefine onboarding experiences.
+                We believe that a positive onboarding process is not just a necessity but a catalyst for building a motivated and engaged workforce.
+                Join us in shaping the future of employee onboarding.</p>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="step"> 
+            <p>Sign up and create your account.</p>
+        </div>
+        <div class="step">   
+            <p>Complete the onboarding form and upload required documents.</p>
+        </div>
+        <div class="step">
+            <p>Explore your personalized dashboard and get started with your new role.</p>
+        </div>
+    </section>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="680f991b-26bd-482b-8ed1-a925b7e0ea4d">
+            <input type="text" name="name" placeholder="Your name" class="contact-input" required>
+            <input type="email" name="email" placeholder="Your email" class="contact-input" required>
+            <textarea name="message" placeholder="Your message" class="contact-input" required></textarea>
+            <button type="submit" class="contact-button">Send <img src="assets/arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="/onboardapp/public/assets/right_img.png" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Onboarding App. All rights reserved.</p>
+    </footer>
+
+    <script src="login.js"></script>
+    <script src="signup.js"></script>
+    <script src="progress.js"></script>  
+    <script>
+        (function (w, d, s, o, f, js, fjs) {
+          w["botsonic_widget"] = o;
+          w[o] =
+            w[o] ||
+            function () {
+              (w[o].q = w[o].q || []).push(arguments);
+            };
+          (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+          js.id = o;
+          js.src = f;
+          js.async = 1;
+          fjs.parentNode.insertBefore(js, fjs);
+        })(window, document, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js");
+        Botsonic("init", {
+          serviceBaseUrl: "https://api.botsonic.ai",
+          token: "62fbac0a-067d-4dd4-944a-c3f83b314ce1",
+        });
+      </script>
+</body>
+</html>
+

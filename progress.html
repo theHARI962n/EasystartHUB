@@ -1,0 +1,41 @@
+<!-- progress.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="progress-style.css">
+        <title>Progress - Onboarding App</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="progress.js" defer></script>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Onboarding App</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="formsubm.html">Form Submission</a></li> 
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">Guide</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="progress.html">Progress</a></li> <!-- Add this line for the Progress page -->
+            </ul>
+        </nav>
+    </header>
+    <section class="progress-container">
+        <h1>Progress Over Months</h1>
+        <canvas id="progressChart" style="width: 100%; max-width: 600px; height: auto;"></canvas>
+        <button onclick="showDetailedProgress()"><a href="">View Detailed Progress </a></button>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Onboarding App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

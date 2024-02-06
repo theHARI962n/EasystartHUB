@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth-styles.css">
+    <title>Sign Up - Onboarding App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Onboarding App</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup-form">
+        <h1>Sign Up</h1>
+        <form id="signupForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="validateSignup()">Sign Up</button>
+        </form>
+        <div id="errorDisplay" class="error"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Onboarding App. All rights reserved.</p>
+    </footer>
+
+    <script src="signup.js"></script>
+</body>
+</html>

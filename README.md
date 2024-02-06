@@ -25,6 +25,10 @@ progress section,formsubmission,token raising.
 
 chatbot for helping you with the app.
 
+seat allocation.
+
+more features will be added in future
+
 ## File Structure
 The repository is structured as follows:
 

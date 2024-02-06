@@ -14,9 +14,6 @@ Automated Processes: Save time and ensure compliance with automated processes.
 
 Engagement & Communication: Enhance communication and engagement with personalized features.
 
-Run the Application:
-Serve the files using a web server (e.g., Apache, Nginx) or simply open the index.html file in your browser.
-Ensure that your server environment supports PHP for server-side processing if applicable.
 Explore the Features:
 Navigate through the app using the provided links in the header.
 Test out the signup, login, and form submission functionalities.

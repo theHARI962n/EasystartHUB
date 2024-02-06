@@ -35,6 +35,7 @@ auth-styles.css: CSS styles specific to authentication pages.
 form-style.css: CSS styles for form elements.
 login.js: JavaScript file for login functionality.
 signup.js: JavaScript file for signup functionality.
+
 ## Contributing
 Contributions to the Onboarding App are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
 

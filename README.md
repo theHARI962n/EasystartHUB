@@ -29,13 +29,21 @@ chatbot for helping you with the app.
 The repository is structured as follows:
 
 index.html: Main homepage of the application.
+
 signup.html: Signup page for new users.
+
 login.html: Login page for existing users.
+
 formsubm.html: Employee onboarding form submission page.
+
 style.css: CSS styles for the application.
+
 auth-styles.css: CSS styles specific to authentication pages.
+
 form-style.css: CSS styles for form elements.
+
 login.js: JavaScript file for login functionality.
+
 signup.js: JavaScript file for signup functionality.
 
 ## Contributing

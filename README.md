@@ -62,5 +62,3 @@ For any inquiries or support, please contact us:
 phone:9042590636.
 
 email:har6ihar9an@gmail.com
-
-Thank you for using the Onboarding App! We hope it helps streamline your onboarding process and enhances your organization's efficiency.
